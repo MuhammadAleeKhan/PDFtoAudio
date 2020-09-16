@@ -9,6 +9,9 @@ It performs the following processes:
 ## How to use?
 1. The best way to use my script is to firstly clone the git repo where you want to.
 2. Select PDF to convert
+3. Edit the first number to skip the starting pages of the book, (changing the 1 to any other page number)
+for i in range(1,pages):
+    page.append(i)
 
 ## What happens behind the scene?
 1. The function "convert_pdf_to_txt" parses the pdf and saves the text 
