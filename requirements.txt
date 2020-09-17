@@ -1,4 +1,4 @@
 pyttsx3==2.90
-pdfminer==3.9.8
+pdfminer==20191125
 tkfilebrowser==2.3.2
 PyPDF2==1.26.0
